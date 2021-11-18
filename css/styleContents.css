@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    background-color: #857db1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header{
+    width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header h1{
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+}
+header .header button{
+    text-align: center;
+    text-decoration: none;
+    width: 65px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: #fff;
+    color: #6254ca;
+    box-sizing: border-box;
+    box-shadow: 0.8px 0.8px 3px #4b4872, -0.8px -0.8px 3px #c2bee2;
+    transition: ease-in 0.5s;
+}
+.img{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-image: url('../img/dulce.jpeg');
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 7px #4b4872, -4px -4px 7px #c2bee2;
+}
+main{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    min-width: 380px;
+    height: auto;
+}
+.section{
+    margin: 15px 15px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #E6E1EF;
+    box-sizing: border-box;
+    box-shadow: 0.8px 0.8px 3px #4b4872, -0.8px -0.8px 3px #c2bee2;
+}
+.section h2, cite{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #564ba7;
+}
+.section cite{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.section p{
+    text-align: justify;
+    margin: 15px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #564ba7;
+}
+.section img{
+    width: 90px;
+}
+.Book{
+    display: flex;
+    align-items: center;
+}
+.Book .text{
+    display: flex;
+    justify-content: space-around;
+}
+.Book .text img{
+    width: 25px;
+}
+.Book .text h3{
+    color: #564ba7;
+    letter-spacing: 2px;
+}
